@@ -15,6 +15,9 @@ echo ${#test}
 test2="12345"
 echo $test2
 echo ${test2:0:2}
+echo ${test2:3:1}
 
-
+# indexof
+echo `expr index $test2 23`
+echo `expr index $test2 1`
 
