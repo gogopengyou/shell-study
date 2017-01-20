@@ -15,5 +15,17 @@ case $name in
 esac
 
 
+for x in ./*.sh
+do
+	echo $x
+done
+
+
+arr=(11 22 33 44 55)
+for x in ${arr[*]}
+do
+	echo $x
+done
+
 
 
