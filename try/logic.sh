@@ -27,5 +27,11 @@ do
 	echo $x
 done
 
-
+tmp=5
+echo $tmp
+while [ $tmp -gt 0 ]
+do
+	tmp=`expr $tmp - 1`
+	echo $tmp
+done
 
